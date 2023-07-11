@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		360C58DF2A5D8E4B008AE24D /* HelloTCAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360C58DE2A5D8E4B008AE24D /* HelloTCAApp.swift */; };
-		360C58E12A5D8E4B008AE24D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360C58E02A5D8E4B008AE24D /* ContentView.swift */; };
+		360C58E12A5D8E4B008AE24D /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360C58E02A5D8E4B008AE24D /* CounterView.swift */; };
 		360C58E32A5D8E4C008AE24D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 360C58E22A5D8E4C008AE24D /* Assets.xcassets */; };
 		360C58E62A5D8E4C008AE24D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 360C58E52A5D8E4C008AE24D /* Preview Assets.xcassets */; };
 		360C58EE2A5D8F1F008AE24D /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 360C58ED2A5D8F1F008AE24D /* ComposableArchitecture */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		360C58DB2A5D8E4B008AE24D /* HelloTCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloTCA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		360C58DE2A5D8E4B008AE24D /* HelloTCAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloTCAApp.swift; sourceTree = "<group>"; };
-		360C58E02A5D8E4B008AE24D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		360C58E02A5D8E4B008AE24D /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 		360C58E22A5D8E4C008AE24D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		360C58E52A5D8E4C008AE24D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		360C58EF2A5D9034008AE24D /* CounterFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeature.swift; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				360C58DE2A5D8E4B008AE24D /* HelloTCAApp.swift */,
-				360C58E02A5D8E4B008AE24D /* ContentView.swift */,
+				360C58E02A5D8E4B008AE24D /* CounterView.swift */,
 				360C58EF2A5D9034008AE24D /* CounterFeature.swift */,
 				360C58E22A5D8E4C008AE24D /* Assets.xcassets */,
 				360C58E42A5D8E4C008AE24D /* Preview Content */,
@@ -149,7 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				360C58F02A5D9034008AE24D /* CounterFeature.swift in Sources */,
-				360C58E12A5D8E4B008AE24D /* ContentView.swift in Sources */,
+				360C58E12A5D8E4B008AE24D /* CounterView.swift in Sources */,
 				360C58DF2A5D8E4B008AE24D /* HelloTCAApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

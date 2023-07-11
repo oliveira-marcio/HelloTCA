@@ -19,9 +19,11 @@ struct CounterFeature: ReducerProtocol {
 
     func reduce(into state: inout State, action: Action) -> EffectTask<Action> {
         switch action {
-        case .decrementButtonTapped: state.count += 1
-        case .incrementButtonTapped: state.count -= 1
+        case .decrementButtonTapped: state.count -= 1
+        case .incrementButtonTapped: state.count += 1
         }
         return .none
     }
 }
+
+extension CounterFeature.State: Equatable {}
