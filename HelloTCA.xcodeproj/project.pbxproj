@@ -14,6 +14,7 @@
 		360C58EE2A5D8F1F008AE24D /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 360C58ED2A5D8F1F008AE24D /* ComposableArchitecture */; };
 		360C58F02A5D9034008AE24D /* CounterFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360C58EF2A5D9034008AE24D /* CounterFeature.swift */; };
 		360C58F92A5E90AE008AE24D /* CounterFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360C58F82A5E90AE008AE24D /* CounterFeatureTests.swift */; };
+		36C42A672A5F119300E74890 /* NumberFactClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C42A662A5F119300E74890 /* NumberFactClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		360C58F12A5DC6E8008AE24D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		360C58F62A5E90AE008AE24D /* HelloTCATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloTCATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		360C58F82A5E90AE008AE24D /* CounterFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeatureTests.swift; sourceTree = "<group>"; };
+		36C42A662A5F119300E74890 /* NumberFactClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFactClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				360C58DE2A5D8E4B008AE24D /* HelloTCAApp.swift */,
 				360C58E02A5D8E4B008AE24D /* CounterView.swift */,
 				360C58EF2A5D9034008AE24D /* CounterFeature.swift */,
+				36C42A662A5F119300E74890 /* NumberFactClient.swift */,
 				360C58E22A5D8E4C008AE24D /* Assets.xcassets */,
 				360C58E42A5D8E4C008AE24D /* Preview Content */,
 			);
@@ -213,6 +216,7 @@
 				360C58F02A5D9034008AE24D /* CounterFeature.swift in Sources */,
 				360C58E12A5D8E4B008AE24D /* CounterView.swift in Sources */,
 				360C58DF2A5D8E4B008AE24D /* HelloTCAApp.swift in Sources */,
+				36C42A672A5F119300E74890 /* NumberFactClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
