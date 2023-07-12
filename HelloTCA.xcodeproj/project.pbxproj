@@ -13,7 +13,18 @@
 		360C58E62A5D8E4C008AE24D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 360C58E52A5D8E4C008AE24D /* Preview Assets.xcassets */; };
 		360C58EE2A5D8F1F008AE24D /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 360C58ED2A5D8F1F008AE24D /* ComposableArchitecture */; };
 		360C58F02A5D9034008AE24D /* CounterFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360C58EF2A5D9034008AE24D /* CounterFeature.swift */; };
+		360C58F92A5E90AE008AE24D /* CounterFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360C58F82A5E90AE008AE24D /* CounterFeatureTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		360C58FA2A5E90AE008AE24D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 360C58D32A5D8E4B008AE24D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 360C58DA2A5D8E4B008AE24D;
+			remoteInfo = HelloTCA;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		360C58DB2A5D8E4B008AE24D /* HelloTCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloTCA.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -23,6 +34,8 @@
 		360C58E52A5D8E4C008AE24D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		360C58EF2A5D9034008AE24D /* CounterFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeature.swift; sourceTree = "<group>"; };
 		360C58F12A5DC6E8008AE24D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		360C58F62A5E90AE008AE24D /* HelloTCATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloTCATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		360C58F82A5E90AE008AE24D /* CounterFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeatureTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +47,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		360C58F32A5E90AE008AE24D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -41,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				360C58DD2A5D8E4B008AE24D /* HelloTCA */,
+				360C58F72A5E90AE008AE24D /* HelloTCATests */,
 				360C58DC2A5D8E4B008AE24D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				360C58DB2A5D8E4B008AE24D /* HelloTCA.app */,
+				360C58F62A5E90AE008AE24D /* HelloTCATests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,6 +96,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		360C58F72A5E90AE008AE24D /* HelloTCATests */ = {
+			isa = PBXGroup;
+			children = (
+				360C58F82A5E90AE008AE24D /* CounterFeatureTests.swift */,
+			);
+			path = HelloTCATests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -97,6 +127,24 @@
 			productReference = 360C58DB2A5D8E4B008AE24D /* HelloTCA.app */;
 			productType = "com.apple.product-type.application";
 		};
+		360C58F52A5E90AE008AE24D /* HelloTCATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 360C58FC2A5E90AE008AE24D /* Build configuration list for PBXNativeTarget "HelloTCATests" */;
+			buildPhases = (
+				360C58F22A5E90AE008AE24D /* Sources */,
+				360C58F32A5E90AE008AE24D /* Frameworks */,
+				360C58F42A5E90AE008AE24D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				360C58FB2A5E90AE008AE24D /* PBXTargetDependency */,
+			);
+			name = HelloTCATests;
+			productName = HelloTCATests;
+			productReference = 360C58F62A5E90AE008AE24D /* HelloTCATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -109,6 +157,10 @@
 				TargetAttributes = {
 					360C58DA2A5D8E4B008AE24D = {
 						CreatedOnToolsVersion = 14.3.1;
+					};
+					360C58F52A5E90AE008AE24D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 360C58DA2A5D8E4B008AE24D;
 					};
 				};
 			};
@@ -129,6 +181,7 @@
 			projectRoot = "";
 			targets = (
 				360C58DA2A5D8E4B008AE24D /* HelloTCA */,
+				360C58F52A5E90AE008AE24D /* HelloTCATests */,
 			);
 		};
 /* End PBXProject section */
@@ -140,6 +193,13 @@
 			files = (
 				360C58E62A5D8E4C008AE24D /* Preview Assets.xcassets in Resources */,
 				360C58E32A5D8E4C008AE24D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		360C58F42A5E90AE008AE24D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,7 +216,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		360C58F22A5E90AE008AE24D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360C58F92A5E90AE008AE24D /* CounterFeatureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		360C58FB2A5E90AE008AE24D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 360C58DA2A5D8E4B008AE24D /* HelloTCA */;
+			targetProxy = 360C58FA2A5E90AE008AE24D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		360C58E72A5D8E4C008AE24D /* Debug */ = {
@@ -331,6 +407,40 @@
 			};
 			name = Release;
 		};
+		360C58FD2A5E90AE008AE24D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcio.HelloTCATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloTCA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HelloTCA";
+			};
+			name = Debug;
+		};
+		360C58FE2A5E90AE008AE24D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcio.HelloTCATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloTCA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HelloTCA";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -348,6 +458,15 @@
 			buildConfigurations = (
 				360C58EA2A5D8E4C008AE24D /* Debug */,
 				360C58EB2A5D8E4C008AE24D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		360C58FC2A5E90AE008AE24D /* Build configuration list for PBXNativeTarget "HelloTCATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				360C58FD2A5E90AE008AE24D /* Debug */,
+				360C58FE2A5E90AE008AE24D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
