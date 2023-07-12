@@ -77,3 +77,4 @@ struct CounterFeature: ReducerProtocol {
 }
 
 extension CounterFeature.State: Equatable {}
+extension CounterFeature.Action: Equatable {}
